@@ -1,20 +1,23 @@
 {
-  "name": "metalsmith-asciidoctor",
-  "version": "1.1.2",
+  "name": "metalsmith-asciidoc",
+  "version": "2.0.3",
   "description": "Metalsmith plugin to render files using asciidoctor.js",
   "keywords": [
     "metalsmith",
     "asciidoc",
     "asciidoctor"
   ],
-  "homepage": "https://github.com/chkal/metalsmith-asciidoctor",
-  "repository": "git@github.com:chkal/metalsmith-asciidoctor.git",
+  "homepage": "https://github.com/ruwanego/metalsmith-asciidoc",
+  "repository": "git@github.com:ruwanego/metalsmith-asciidoc",
   "license": "MIT",
   "author": {
     "name": "Christian Kaltepoth",
     "email": "christian@kaltepoth.de",
     "url": "http://blog.kaltepoth.de/"
   },
+  "contributors": [
+    "Ruwan Egodawatte <ruwanego@gmail.com>"
+  ],
   "main": "src/index.js",
   "scripts": {
     "test": "mocha"
