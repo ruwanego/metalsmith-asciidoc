@@ -28,6 +28,6 @@
   "devDependencies": {
     "chai": "^4.1.2",
     "metalsmith": "^2.3.0",
-    "mocha": "^3.2.0"
+    "mocha": "^6.2.2"
   }
 }
