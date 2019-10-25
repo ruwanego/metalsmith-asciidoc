@@ -17,7 +17,6 @@ describe("All tests", () => {
 
         // check file contents
         expect(files["simple.html"].contents.toString()).to.have.string("Hello <strong>World</strong>");
-        
         pluginDone();
       });
 
@@ -43,7 +42,7 @@ describe("All tests", () => {
   });
 
   it("Should apply custom pattern", testDone => {
-    
+
     const metalsmith = Metalsmith(path.join(__dirname, "fixture"))
       .use(asciidoctor({
         pattern: "*.does-not-exist"
@@ -62,7 +61,7 @@ describe("All tests", () => {
   });
 
   it("Should apply custom options", testDone => {
-    
+
     const metalsmith = Metalsmith(path.join(__dirname, "fixture"))
       .use(asciidoctor({
         options: {
